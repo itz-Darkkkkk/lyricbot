@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lyric Bot – Discord Assistant</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyric Bot | Your Ultimate Discord Companion</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav>
+    <a class="nav-link" href="index.html">🏠 Home</a>
+    <a class="nav-link" href="privacy.html">🔐 Privacy Policy</a>
+    <a class="nav-link" href="terms.html">📄 Terms of Service</a>
+  </nav>
+
   <div class="container">
-    <nav>
-      <a class="nav-link" href="privacy.html">Privacy Policy</a>
-      <a class="nav-link" href="terms.html">Terms of Service</a>
-    </nav>
-
-    <h1>🎵 Welcome to Lyric Bot</h1>
+    <h1>🎵 Welcome to <strong>Lyric Bot</strong></h1>
     <p>
-      Lyric is a modern Discord bot designed to help you manage events, record stage/audio channels, moderate communities, and elevate engagement — all with clean design and powerful automation.
+      Lyric Bot is a powerful, secure, and intelligent Discord bot designed to enhance your server experience. Whether you're managing a study community, hosting stage events, or just vibing with friends, Lyric brings moderation, utility, and entertainment—all in one elegant package.
     </p>
 
+    <h2>✨ Why Choose Lyric?</h2>
+    <ul>
+      <li><strong>Voice Recording:</strong> Capture entire VC or Stage sessions and automatically send recordings to a configured channel.</li>
+      <li><strong>Moderation Aware:</strong> Detects violations (e.g. no camera or screenshare in required channels) and auto-warns or disconnects users.</li>
+      <li><strong>UltraCoins Economy:</strong> Unique reward system encouraging productivity and interaction.</li>
+      <li><strong>To-Do Manager:</strong> With cool-down and role-based restrictions for fair task logging.</li>
+      <li><strong>Rich Embed Support:</strong> Professional announcements, reports, and logs.</li>
+      <li><strong>Admin-Only Commands:</strong> Controlled access by user ID and role ID.</li>
+    </ul>
+
+    <h2>🛡️ Security & Compliance</h2>
     <p>
-      From secure voice recording to intelligent moderation, Lyric empowers community builders with streamlined features while respecting user privacy.
+      Lyric follows best practices in data protection, encryption, and platform compliance (GDPR, CCPA). Data collected (like user IDs or timestamps) is stored securely and never shared.
     </p>
 
-    <a href="privacy.html" class="button">View Privacy Policy</a>
-    <a href="terms.html" class="button">View Terms of Service</a>
+    <h2>📋 Quick Links</h2>
+    <a href="privacy.html" class="button">🔐 Read Privacy Policy</a>
+    <a href="terms.html" class="button">📄 View Terms of Service</a>
+
+    <h2>💬 Need Support?</h2>
+    <p>Join our <a class="nav-link" href="https://discord.gg/your-support-server">Support Discord Server</a> or email us at <code>support@lyricbot.dev</code>.</p>
+
+    <div class="dark-toggle" onclick="toggleDarkMode()">🌗 Toggle Dark Mode</div>
   </div>
+
+  <div class="footer">
+    &copy; 2025 Lyric Bot. All rights reserved.
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
