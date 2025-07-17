@@ -1,0 +1,74 @@
+/* style.css */
+:root {
+  --primary-color: #5865F2;
+  --bg-color: #f9f9f9;
+  --text-color: #222;
+  --card-bg: #fff;
+  --border-color: #ddd;
+  --max-width: 960px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+p, li {
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+nav {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #4752c4;
+}
